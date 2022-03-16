@@ -1,0 +1,16 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<script src="javascrit/colacao.js"></script>
+</head>
+<body>
+	<from>
+		<input type="text" id="nombre" placeholder="nombre" onblur="validarNombre(this.value);">
+		<input type="email" id="email" placeholder="email" onblur="validarEmail(this.value);">
+		<br>
+		<input type="radio" name="hacorrido" value="SI" onclick="haCorrido();">SI<br>
+		<input type="radio" name="hacorrido" value="NO" onclick="noHaCorrido();">NO<br>
+		<div id="campo_corredor"></div>
+	</from>
+</body>
+</html>
